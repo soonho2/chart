@@ -1,6 +1,8 @@
 import React from "react";
 import { Chart as ChartJS } from "chart.js/auto";
 import { Pie } from "react-chartjs-2";
+import 'chart.js/auto';
+
 const labels = ["January", "February", "March", "April", "May", "June"];
 const data = {
   labels: labels,
